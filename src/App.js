@@ -14,7 +14,7 @@ function App() {
   const [forecast, setForecast] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [city, setCity] = useState("Atlanta, USA");
+  const [city, setCity] = useState("Pune, INDIA");
   const [chart, setChart] = useState({
     chartLabels: ["Now"],
     chartData: [],
